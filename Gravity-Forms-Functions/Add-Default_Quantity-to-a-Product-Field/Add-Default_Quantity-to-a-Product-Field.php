@@ -1,5 +1,5 @@
 <?php 
-/*^^^ Remove this php tag before adding this code to your theme's functions.php file
+/*^^^ Remove this php tag before adding this code to your theme's functions.php file */
 // Configure quantity input value be '1'
 add_filter( 'gform_field_value_default_quantity', 'endo_set_default_quantity' );
 function endo_set_default_quantity() {
