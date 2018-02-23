@@ -8,7 +8,7 @@ function custom_pre_get_posts_query( $q ) {
     $tax_query[] = array(
            'taxonomy' => 'product_cat',
            'field' => 'slug',
-           'terms' => array( 'industrial-products' ), // Don't display products in the industrial-products category on the shop page.
+           'terms' => array( 'products-to-hide' ), // Don't display products in the products-to-hide category on the shop page.
            'operator' => 'NOT IN'
     );
 
