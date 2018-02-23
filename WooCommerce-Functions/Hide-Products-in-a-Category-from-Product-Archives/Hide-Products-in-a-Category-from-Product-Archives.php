@@ -1,3 +1,5 @@
+<?php 
+/*^^^ You might have to remove this php tag before adding this code to your theme's functions.php file */
 /* Hides products in specific category from the SHOP page */
 function custom_pre_get_posts_query( $q ) {
 
