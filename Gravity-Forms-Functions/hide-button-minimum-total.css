@@ -1,0 +1,16 @@
+h3.warning {
+  width: 36%;
+  background: #f99 none repeat scroll 0 0;
+  font-weight: normal;
+  padding: 10px 15px;
+}
+@media screen and (max-width: 1024px){
+  h3.warning {
+    width:33%;
+  }
+}
+@media (max-width:768px) {
+  h3.warning {
+    width:100%;
+  }
+}
