@@ -1,5 +1,5 @@
 <?php 
-/*^^^ Remove this php tag before adding this code to your theme's functions.php file */
+/*^^^ You might have to remove this php tag before adding this code to your theme's functions.php file */
 //* Customize the entire footer
 remove_action( 'genesis_footer', 'genesis_do_footer' );
 add_action( 'genesis_footer', 'dan_custom_footer' );
