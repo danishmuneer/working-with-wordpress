@@ -1,1 +1,1 @@
-PHP code goes in the current theme's functions.php file
+PHP code goes in the Genesis child theme's functions.php file
