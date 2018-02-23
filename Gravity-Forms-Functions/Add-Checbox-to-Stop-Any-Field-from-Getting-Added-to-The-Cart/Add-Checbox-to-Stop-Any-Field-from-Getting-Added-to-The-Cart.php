@@ -1,3 +1,5 @@
+<?php 
+/*^^^ Remove this php tag before adding this code to your theme's functions.php file
 /**
 * WooCommerce Gravity Forms Add-on: Add support for removing a field from the product description in the cart.
 * 
