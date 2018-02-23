@@ -1,1 +1,1 @@
-Code goes in the functions.php file of the current WordPress theme
+PHP code goes in the current theme's functions.php file
