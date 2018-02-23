@@ -1,3 +1,4 @@
+<?php 
 /*^^^ You might have to remove this php tag before adding this code to your theme's functions.php file */
 // this sets default country on the cart page to US
 function set_country_befor_cart_page(){
