@@ -1,4 +1,7 @@
-/* add order tracking functionality to order tracking page -
+<?php
+
+/* do not add the starting PHP tag
+add order tracking functionality to order tracking page -
 Replace 00000 for $target_postID with the post ID of the WordPress page that contains the html tracking form -
 Replace 'xxx' in ID and key with your actual Google API information. This ensures API details are not added to the JS files that are publicly accessible
 */
