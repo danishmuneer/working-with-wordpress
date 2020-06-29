@@ -1,0 +1,263 @@
+/* Add the following CSS to yours style.css */
+
+/* jQuery Confirm css for responsive - starts */
+div.jconfirm-content,div.jconfirm-title-c {
+	font-family:"Droid Sans",sans-serif;
+}
+div.jconfirm-content {
+	font-size:16px;
+}
+body .jconfirm.jconfirm-modern .jconfirm-box div.jconfirm-content {
+	text-align: left;
+}
+div.jconfirm-content p {
+	margin-bottom: 0px;
+}
+div.jconfirm-content ul.bulletlist li {
+	margin-left:20px;
+}
+iframe.video-frame {
+    width:1024px;
+    height:576px;
+}
+.jconfirm-holder .container {
+	width:100%;
+	padding-right:15px;
+	padding-left:15px;
+	margin-right:auto;
+	margin-left:auto;
+}
+.jconfirm-holder .col,
+.jconfirm-holder .col-1,
+.jconfirm-holder .col-10,
+.jconfirm-holder .col-11,
+.jconfirm-holder .col-12,
+.jconfirm-holder .col-2,
+.jconfirm-holder .col-3,
+.jconfirm-holder .col-4,
+.jconfirm-holder .col-5,
+.jconfirm-holder .col-6,
+.jconfirm-holder .col-7,
+.jconfirm-holder .col-8,
+.jconfirm-holder .col-9,
+.jconfirm-holder .col-auto,
+.jconfirm-holder .col-lg,
+.jconfirm-holder .col-lg-1,
+.jconfirm-holder .col-lg-10,
+.jconfirm-holder .col-lg-11,
+.jconfirm-holder .col-lg-12,
+.jconfirm-holder .col-lg-2,
+.jconfirm-holder .col-lg-3,
+.jconfirm-holder .col-lg-4,
+.jconfirm-holder .col-lg-5,
+.jconfirm-holder .col-lg-6,
+.jconfirm-holder .col-lg-7,
+.jconfirm-holder .col-lg-8,
+.jconfirm-holder .col-lg-9,
+.jconfirm-holder .col-lg-auto,
+.jconfirm-holder .col-md,
+.jconfirm-holder .col-md-1,
+.jconfirm-holder .col-md-10,
+.jconfirm-holder .col-md-11,
+.jconfirm-holder .col-md-12,
+.jconfirm-holder .col-md-2,
+.jconfirm-holder .col-md-3,
+.jconfirm-holder .col-md-4,
+.jconfirm-holder .col-md-5,
+.jconfirm-holder .col-md-6,
+.jconfirm-holder .col-md-7,
+.jconfirm-holder .col-md-8,
+.jconfirm-holder .col-md-9,
+.jconfirm-holder .col-md-auto,
+.jconfirm-holder .col-sm,
+.jconfirm-holder .col-sm-1,
+.jconfirm-holder .col-sm-10,
+.jconfirm-holder .col-sm-11,
+.jconfirm-holder .col-sm-12,
+.jconfirm-holder .col-sm-2,
+.jconfirm-holder .col-sm-3,
+.jconfirm-holder .col-sm-4,
+.jconfirm-holder .col-sm-5,
+.jconfirm-holder .col-sm-6,
+.jconfirm-holder .col-sm-7,
+.jconfirm-holder .col-sm-8,
+.jconfirm-holder .col-sm-9,
+.jconfirm-holder .col-sm-auto,
+.jconfirm-holder .col-xl,
+.jconfirm-holder .col-xl-1,
+.jconfirm-holder .col-xl-10,
+.jconfirm-holder .col-xl-11,
+.jconfirm-holder .col-xl-12,
+.jconfirm-holder .col-xl-2,
+.jconfirm-holder .col-xl-3,
+.jconfirm-holder .col-xl-4,
+.jconfirm-holder .col-xl-5,
+.jconfirm-holder .col-xl-6,
+.jconfirm-holder .col-xl-7,
+.jconfirm-holder .col-xl-8,
+.jconfirm-holder .col-xl-9,
+.jconfirm-holder .col-xl-auto {
+	position:relative;
+	width:100%;
+	min-height:1px;
+	padding-right:15px;
+	padding-left:15px;
+	margin:auto;
+}
+.jconfirm-holder .col {
+	-ms-flex-preferred-size:0;
+	flex-basis:0;
+	-ms-flex-positive:1;
+	flex-grow:1;
+	max-width:100%;
+}
+.jconfirm-holder .col-auto {
+	-ms-flex:0 0 auto;
+	flex:0 0 auto;
+	width:auto;
+	max-width:none;
+}
+.jconfirm-holder .col-1 {
+	-ms-flex:0 0 8.333333%;
+	flex:0 0 8.333333%;
+	max-width:8.333333%;
+}
+.jconfirm-holder .col-2 {
+	-ms-flex:0 0 16.666667%;
+	flex:0 0 16.666667%;
+	max-width:16.666667%;
+}
+.jconfirm-holder .col-3 {
+	-ms-flex:0 0 25%;
+	flex:0 0 25%;
+	max-width:25%;
+}
+.jconfirm-holder .col-4 {
+	-ms-flex:0 0 33.333333%;
+	flex:0 0 33.333333%;
+	max-width:33.333333%;
+}
+.jconfirm-holder .col-5 {
+	-ms-flex:0 0 41.666667%;
+	flex:0 0 41.666667%;
+	max-width:41.666667%;
+}
+.jconfirm-holder .col-6 {
+	-ms-flex:0 0 50%;
+	flex:0 0 50%;
+	max-width:50%;
+}
+.jconfirm-holder .col-7 {
+	-ms-flex:0 0 58.333333%;
+	flex:0 0 58.333333%;
+	max-width:58.333333%;
+}
+.jconfirm-holder .col-8 {
+	-ms-flex:0 0 66.666667%;
+	flex:0 0 66.666667%;
+	max-width:66.666667%;
+}
+.jconfirm-holder .col-9 {
+	-ms-flex:0 0 75%;
+	flex:0 0 75%;
+	max-width:75%;
+}
+.jconfirm-holder .col-10 {
+	-ms-flex:0 0 83.333333%;
+	flex:0 0 83.333333%;
+	max-width:83.333333%;
+	}
+.jconfirm-holder .col-11 {
+	-ms-flex:0 0 91.666667%;
+	flex:0 0 91.666667%;
+	max-width:91.666667%;
+}
+.jconfirm-holder .col-12 {
+	-ms-flex:0 0 100%;
+	flex:0 0 100%;
+	max-width:100%;
+}
+/* jQuery Confirm css for responsive - ends */
+
+/* jQuery Confirm css for desktop - starts */
+@media only screen and (min-width: 959px) {
+	/* jQuery Confirm css - starts */
+	.jconfirm-holder .container{
+		max-width:1140px;
+	}
+	.jconfirm-holder .col-xl {
+		-ms-flex-preferred-size:0;
+		flex-basis:0;
+		-ms-flex-positive:1;
+		flex-grow:1;
+		max-width:100%;
+	}
+	.jconfirm-holder .col-xl-auto {
+		-ms-flex:0 0 auto;
+		flex:0 0 auto;
+		width:auto;
+		max-width:none;
+	}
+	.jconfirm-holder .col-xl-1 {
+		-ms-flex:0 0 8.333333%;
+		flex:0 0 8.333333%;
+		max-width:8.333333%
+	}
+	.jconfirm-holder .col-xl-2 {
+		-ms-flex:0 0 16.666667%;
+		flex:0 0 16.666667%;
+		max-width:16.666667%;
+	}
+	.jconfirm-holder .col-xl-3 {
+		-ms-flex:0 0 25%;
+		flex:0 0 25%;
+		max-width:25%;
+	}
+	.jconfirm-holder .col-xl-4 {
+		-ms-flex:0 0 33.333333%;
+		flex:0 0 33.333333%;
+		max-width:33.333333%;
+	}
+	.jconfirm-holder .col-xl-5 {
+		-ms-flex:0 0 41.666667%;
+		flex:0 0 41.666667%;
+		max-width:41.666667%;
+	}
+	.jconfirm-holder .col-xl-6 {
+		-ms-flex:0 0 50%;
+		flex:0 0 50%;
+		max-width:50%;
+	}
+	.jconfirm-holder .col-xl-7 {
+		-ms-flex:0 0 58.333333%;
+		flex:0 0 58.333333%;
+		max-width:58.333333%;
+	}
+	.jconfirm-holder .col-xl-8 {
+		-ms-flex:0 0 66.666667%;
+		flex:0 0 66.666667%;
+		max-width:66.666667%;
+	}
+	.jconfirm-holder .col-xl-9 {
+		-ms-flex:0 0 75%;
+		flex:0 0 75%;
+		max-width:75%;
+	}
+	.jconfirm-holder .col-xl-10 {
+		-ms-flex:0 0 83.333333%;
+		flex:0 0 83.333333%;
+		max-width:83.333333%;
+	}
+	.jconfirm-holder .col-xl-11 {
+		-ms-flex:0 0 91.666667%;
+		flex:0 0 91.666667%;
+		max-width:91.666667%;
+	}
+	.jconfirm-holder .col-xl-12 {
+		-ms-flex:0 0 100%;
+		flex:0 0 100%;
+		max-width:100%;
+	}
+	.col-md{-ms-flex-preferred-size:0;flex-basis:0;-ms-flex-positive:1;flex-grow:1;max-width:100%}.jconfirm-holder .col-md-auto{-ms-flex:0 0 auto;flex:0 0 auto;width:auto;max-width:none}.jconfirm-holder .col-md-1{-ms-flex:0 0 8.333333%;flex:0 0 8.333333%;max-width:8.333333%}.jconfirm-holder .col-md-2{-ms-flex:0 0 16.666667%;flex:0 0 16.666667%;max-width:16.666667%}.jconfirm-holder .col-md-3{-ms-flex:0 0 25%;flex:0 0 25%;max-width:25%}.jconfirm-holder .col-md-4{-ms-flex:0 0 33.333333%;flex:0 0 33.333333%;max-width:33.333333%}.jconfirm-holder .col-md-5{-ms-flex:0 0 41.666667%;flex:0 0 41.666667%;max-width:41.666667%}.jconfirm-holder .col-md-6{-ms-flex:0 0 50%;flex:0 0 50%;max-width:50%}.jconfirm-holder .col-md-7{-ms-flex:0 0 58.333333%;flex:0 0 58.333333%;max-width:58.333333%}.jconfirm-holder .col-md-8{-ms-flex:0 0 66.666667%;flex:0 0 66.666667%;max-width:66.666667%}.jconfirm-holder .col-md-9{-ms-flex:0 0 75%;flex:0 0 75%;max-width:75%}.jconfirm-holder .col-md-10{-ms-flex:0 0 83.333333%;flex:0 0 83.333333%;max-width:83.333333%}.jconfirm-holder .col-md-11{-ms-flex:0 0 91.666667%;flex:0 0 91.666667%;max-width:91.666667%}.jconfirm-holder .col-md-12{-ms-flex:0 0 100%;flex:0 0 100%;max-width:100%}
+	/* jQuery Confirm css for desktop - ends */
+}
