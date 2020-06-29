@@ -259,5 +259,5 @@ iframe.video-frame {
 		max-width:100%;
 	}
 	.col-md{-ms-flex-preferred-size:0;flex-basis:0;-ms-flex-positive:1;flex-grow:1;max-width:100%}.jconfirm-holder .col-md-auto{-ms-flex:0 0 auto;flex:0 0 auto;width:auto;max-width:none}.jconfirm-holder .col-md-1{-ms-flex:0 0 8.333333%;flex:0 0 8.333333%;max-width:8.333333%}.jconfirm-holder .col-md-2{-ms-flex:0 0 16.666667%;flex:0 0 16.666667%;max-width:16.666667%}.jconfirm-holder .col-md-3{-ms-flex:0 0 25%;flex:0 0 25%;max-width:25%}.jconfirm-holder .col-md-4{-ms-flex:0 0 33.333333%;flex:0 0 33.333333%;max-width:33.333333%}.jconfirm-holder .col-md-5{-ms-flex:0 0 41.666667%;flex:0 0 41.666667%;max-width:41.666667%}.jconfirm-holder .col-md-6{-ms-flex:0 0 50%;flex:0 0 50%;max-width:50%}.jconfirm-holder .col-md-7{-ms-flex:0 0 58.333333%;flex:0 0 58.333333%;max-width:58.333333%}.jconfirm-holder .col-md-8{-ms-flex:0 0 66.666667%;flex:0 0 66.666667%;max-width:66.666667%}.jconfirm-holder .col-md-9{-ms-flex:0 0 75%;flex:0 0 75%;max-width:75%}.jconfirm-holder .col-md-10{-ms-flex:0 0 83.333333%;flex:0 0 83.333333%;max-width:83.333333%}.jconfirm-holder .col-md-11{-ms-flex:0 0 91.666667%;flex:0 0 91.666667%;max-width:91.666667%}.jconfirm-holder .col-md-12{-ms-flex:0 0 100%;flex:0 0 100%;max-width:100%}
-	/* jQuery Confirm css for desktop - ends */
 }
+/* jQuery Confirm css for desktop - ends */
