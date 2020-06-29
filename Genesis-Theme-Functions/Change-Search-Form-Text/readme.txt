@@ -1,0 +1,1 @@
+The text "Search" takes so much space. We are not able to completely remove it or replace with an icon as of 29Jun20. The purpose of this code is the replace the text with a whitespace and then add an search icon using JavaScript. 
