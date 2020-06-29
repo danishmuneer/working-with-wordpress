@@ -1,1 +1,1 @@
-Different examples of customizing the checkout through simple code
+Different examples of customizing the checkout fields through simple code
