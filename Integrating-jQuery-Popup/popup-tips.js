@@ -1,4 +1,6 @@
-/* Add a video in the popup - Example html also available */
+/* add all JavaScript in this file - we have enqueued this file through functions.php code */
+
+/* Add a video in the popup - example.html also available */
 jQuery('a.popup-video').on('click', function () {
     jQuery.dialog({
 		theme: 'bootstrap',
