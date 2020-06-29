@@ -1,1 +1,1 @@
-This JavaScript solution takes 
+The user uses their order number on a html form to retrieve shipping information. This JavaScript solution integrates with Google Sheets using Google API and fetches information for the order number. 
