@@ -1,0 +1,1 @@
+Depending upon the shipping classes present in the cart, remove some shipping methods. The shipping method can be different for a country and that's also accommodated in this code. This is a template and can be modified to whatever the needs be. 
