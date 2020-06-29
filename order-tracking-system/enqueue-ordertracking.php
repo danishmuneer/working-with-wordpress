@@ -1,7 +1,12 @@
-/* add order tracking functionality to order tracking page - Replace 'xxx' in ID and key with your actual Google API information. This ensures API details are not added to the JS files that are publicly accessible */
+/* add order tracking functionality to order tracking page -
+Replace 00000 for $target_postID with the post ID of the WordPress page that contains the html tracking form -
+Replace 'xxx' in ID and key with your actual Google API information. This ensures API details are not added to the JS files that are publicly accessible
+*/
+
 function order_tracking() {
+	$target_postID = 00000;
 	global $post;
-	if ( $post->ID == 19851 ) {
+	if ( $post->ID == $target_postID ) {
 		$params = array(
   			'ID' => 'xxx',
   			'key' => 'xxx',
