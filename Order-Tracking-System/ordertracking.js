@@ -35,18 +35,6 @@ jQuery(document).ready(function() {
 			return false;
 		}
 	});
-	jQuery('a.tracktip').on('click', function () {
-		jQuery.dialog({
-			theme: 'bootstrap',
-			title: 'How to Use This Form',
-			content: '<iframe class="video-frame" src="https://www.youtube.com/embed/PI6FVDJqmG8?rel=0&autoplay=1&showinfo=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>',
-			animation: 'scale',
-			type:'orange',
-			columnClass: 'col-md-12',
-			escapeKey: true,
-			backgroundDismiss: true,
-		});
-	});
 	jQuery("#ordertrackingsubmit").on("click", function (e) {
 		var quotenum = jQuery("#quotenum").val();
 		if(quotenum != '') {
