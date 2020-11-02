@@ -12,7 +12,7 @@ WHERE       `wp_postmeta`.`meta_key` = "_order_total" OR `wp_postmeta`.`meta_key
 ORDER BY	`wp_postmeta`.`post_id`	
 LIMIT       50
 
-/* select all gravity form entries uptill a certain date */
+/* select all gravity form entries uptill a certain date (eg. if you want gf entries until end of 31 October 2020, you write '2020-11-01' ...11 for November) */
 
 SELECT * FROM `wp_gf_entry` WHERE `date_created` < 'YYYY-MM-DD'  
 ORDER BY `wp_gf_entry`.`date_created` DESC
