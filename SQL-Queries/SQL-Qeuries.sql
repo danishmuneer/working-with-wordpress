@@ -22,3 +22,7 @@ SELECT * FROM `wp_gf_entry_meta`
 WHERE `entry_id` IN ( SELECT ID FROM `wp_gf_entry` )
 AND `entry_id` <= xxx /* replace xxx by the highest entry ID number we got from the previous query*/
 ORDER BY `wp_gf_entry_meta`.`entry_id`  DESC
+
+/* replace text in a table column */
+update <table_name> set <column_name> = /* to change a gravity form, use 'wp_gf_entry_meta' in place of <table_name>, use 'display_meta' in place of <column_name> */
+replace(<column_name>,'<string_to_replace>','<new_string>');
