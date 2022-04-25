@@ -1,1 +1,0 @@
-This plugin adds two fields to collect shipping information if a specific shipping method is selected. The collected information is shown in the order received page, new order email and order edit screen in admin dashboard.
